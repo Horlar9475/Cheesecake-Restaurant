@@ -483,6 +483,9 @@ footer{
                             padding-left: 10px;
                             font-size: 12px;
                             font-family: 'Recursive', sans-serif;
+                            &:focus{
+                                outline: 2px solid #FCAE36;
+                            }
                         }
                         textarea{
                             width: 80%;
@@ -491,6 +494,9 @@ footer{
                             padding: 5px 10px;
                             font-size: 10px;
                             font-family: 'Recursive', sans-serif;
+                            &:focus{
+                                outline: 2px solid #FCAE36;
+                            }
                         }
                         button{
                             width: 40%;
@@ -729,8 +735,9 @@ footer{
             .menu1{
                 width: 100%;
                 .item-image{
-                    width: 50%;
-                    height: auto; display: flex;
+                    width: 40%;
+                    height: auto;
+                    display: flex;
                     align-self: center;
                 }
                 h2{
@@ -879,8 +886,9 @@ footer{
                     margin-top: 20px;
                 }
                 .item-image{
-                    width: 50%;
-                    height: auto; display: flex;
+                    width: 40%;
+                    height: auto;
+                    display: flex;
                     align-self: center;
                 }
             }
